@@ -68,7 +68,7 @@ export function renderHeader() {
   return `
     <header class="site-header">
       <div class="container site-header__inner">
-        <a class="logo" href="${logoHref}"><span>Вольт</span>групп</a>
+        <a class="logo" href="${logoHref}"><span>${site.logoAccent}</span>${site.logoRest}</a>
         <nav class="nav-desktop" aria-label="Основная навигация">${desktopLinks}</nav>
         <div class="header-actions">
           ${themeToggle}
@@ -108,7 +108,7 @@ export function renderFooter() {
     <footer class="site-footer">
       <div class="container site-footer__grid">
         <div class="site-footer__brand">
-          <a class="logo" href="${logoHref}"><span>Вольт</span>групп</a>
+          <a class="logo" href="${logoHref}"><span>${site.logoAccent}</span>${site.logoRest}</a>
           <p>${footer.tagline}</p>
           <div class="site-footer__social">${social}</div>
         </div>

@@ -4,7 +4,7 @@ const STORAGE_KEY = 'voltgroup_discuss_submissions';
 
 export function submitDiscussForm(payload) {
   // TODO: подключить API / email / Telegram
-  console.log('[VoltGroup] Discuss form submission:', payload);
+  console.log('[Svetotehnika-Nizhniy] Discuss form submission:', payload);
 
   const existing = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '[]');
   existing.push({ ...payload, submittedAt: new Date().toISOString() });

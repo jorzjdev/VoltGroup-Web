@@ -128,9 +128,9 @@ export function renderHomePage() {
             <a class="btn btn--text link-arrow" href="/pages/about.html" style="margin-top: var(--space-md)">Подробнее</a>
           </div>
           <div class="about__images">
-            <img src="${about.images[0]}" alt="Подсветка фасада жилого комплекса" loading="lazy" width="600" height="700" />
-            <img src="${about.images[1]}" alt="Освещение интерьера коммерческого здания" loading="lazy" width="400" height="500" />
-            <img src="${about.images[2]}" alt="Городская застройка в вечерней подсветке" loading="lazy" width="400" height="500" />
+            <img src="${about.images[0]}" alt="Нижнегородская ярмарка, главное здание" loading="lazy" width="600" height="700" />
+            <img src="${about.images[1]}" alt="Освещение интерьера коммерческого объекта" loading="lazy" width="400" height="500" />
+            <img src="${about.images[2]}" alt="Архитектурное освещение фасада" loading="lazy" width="400" height="500" />
           </div>
         </div>
         <blockquote class="about__quote" style="margin-top: var(--space-lg)">${about.quote}</blockquote>

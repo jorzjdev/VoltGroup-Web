@@ -27,7 +27,7 @@ function initStub() {
     app.innerHTML = `
       <main>
         <section class="stub-page section--fade is-visible">
-          <p class="section-label">Вольтгрупп</p>
+          <p class="section-label">${site.name}</p>
           <h1>${title}</h1>
           <p>${stub.text}</p>
           <a class="btn btn--primary" href="../index.html">${stub.backLabel}</a>
